@@ -11,10 +11,10 @@
 (define-public babashka
   (package
     (name "babashka")
-    (version "0.1.2")
+    (version "0.6.1")
     (source (origin
               (method url-fetch)
-              (uri (string-append "https://github.com/borkdude/babashka/releases/download/v" version "/babashka-" version "-linux-amd64.zip"))
+              (uri (string-append "https://github.com/babashka/babashka/releases/download/v" version "/babashka-" version "-linux-amd64.tar.gz"))
               (sha256
                (base32
                 "030dvfwcz8q8im4h0jm9400d8i0fg46crp0r45xcdd48xg47jn1i"))))
