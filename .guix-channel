@@ -2,4 +2,13 @@
 
 (channel
  (version 0)
- (url "https://github.com/pink-gorilla/guix-chan")) ; the primary URL
+ ) ; the primary URL
+
+(channel
+  (version 0)
+  (url "https://github.com/pink-gorilla/guix-chan")
+  (directory "packages")
+  (dependencies
+   (channel
+    (name nonguix)
+    (url "https://gitlab.com/nonguix/nonguix.git"))))
