@@ -2,5 +2,4 @@
 
 (channel
  (version 0)
- (news-file "news.txt")
  (url "https://github.com/pink-gorilla/guix-chan")) ; the primary URL
