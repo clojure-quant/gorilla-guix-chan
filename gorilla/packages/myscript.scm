@@ -2,7 +2,6 @@
   #:use-module (guix gexp)
   #:use-module (guix packages)
   #:use-module (guix build-system gnu)
-  #:use-module ((guix licenses) #:prefix license:)
   #:use-module (guix build-system trivial)
   #:use-module (gnu packages bash))
 
@@ -35,7 +34,7 @@
     (synopsis "bla bla")
     (description "More verbose bla bla")
     (home-page  "https://github.com/babashka/babashka")
-    (license license:epl1.0)))
+))
 
     myscript
 
