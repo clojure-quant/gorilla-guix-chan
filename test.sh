@@ -1,3 +1,3 @@
 #!/bin/sh
 
-guix build -f ./gorilla/packages/babashka.scm
+guix build -f ./gorilla/packages/vscode.scm
