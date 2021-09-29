@@ -1,3 +1,3 @@
 #!/bin/sh
 
-guix build -f ./gorilla/packages/vscode.scm
+guix build -f ./gorilla/packages/myscript.scm
