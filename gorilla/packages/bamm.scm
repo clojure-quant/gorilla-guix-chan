@@ -1,4 +1,5 @@
-(define-module (gorilla packages myscript)
+(define-module (gorilla packages bamm)
+  #:use-module (guix licenses)
   #:use-module (guix gexp)
   #:use-module (guix packages)
   #:use-module (guix build-system gnu)
@@ -34,6 +35,7 @@
     (synopsis "bla bla")
     (description "More verbose bla bla")
     (home-page  "https://github.com/babashka/babashka")
+    (license gpl3+)
 ))
 
     myscript
