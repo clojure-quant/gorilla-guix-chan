@@ -31,7 +31,7 @@
        (modify-phases %standard-phases
 		      ;; this is required because standard unpack expects
 		      ;; the archive to contain a directory with everything inside it,
-		      ;; while babashka's release .zip only contains the `bb` binary.
+		      ;; while babashka's release .tar.gz only contains the `bb` binary.
 		      (replace 'unpack
            (lambda* (#:key inputs outputs source #:allow-other-keys )
              (invoke "tar" "xvf" source)
