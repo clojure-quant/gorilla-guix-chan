@@ -1,3 +1,3 @@
 #!/bin/sh
 
-guix build -f ./gorilla/packages/bamm.scm
+guix build -f ./gorilla/packages/bongotrott.scm

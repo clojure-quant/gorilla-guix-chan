@@ -1,4 +1,4 @@
-(define-module (gorilla packages bamm)
+(define-module (gorilla packages bongotrott)
   #:use-module (guix licenses)
   #:use-module (guix gexp)
   #:use-module (guix packages)
@@ -11,9 +11,9 @@
 ; https://github.com/alezost/guix-config/blob/master/misc/shell-script-example/guix.scm
 
 
-(define-public myscript
+(define-public bongotrott
   (package
-    (name "myscript")
+    (name "bongotrott")
     (version "0.2")
     (source (local-file (string-append (dirname (current-filename))
                                        "/" "myscript2")))
@@ -38,6 +38,6 @@
     (home-page  "https://github.com/babashka/babashka")
     (license gpl3+)))
 
-    myscript
+    bongotrott
 
 
