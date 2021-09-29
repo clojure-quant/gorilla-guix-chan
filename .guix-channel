@@ -1,5 +1,5 @@
 (channel
-  (version 2)
+  (version 0)
   (url "https://github.com/pink-gorilla/gorilla-guix-chan")
    (dependencies
    (channel
