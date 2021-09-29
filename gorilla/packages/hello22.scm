@@ -1,4 +1,4 @@
-(define-module (gorilla packages hello)
+(define-module (gorilla packages hello22)
   #:use-module (guix packages)
   #:use-module (guix download)
   #:use-module (guix build-system gnu)
