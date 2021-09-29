@@ -1,10 +1,11 @@
 (define-module (gorilla packages bongotrott)
-  #:use-module (guix licenses)
-  #:use-module (guix gexp)
-  #:use-module (guix packages)
-  #:use-module (guix build-system gnu)
-  #:use-module (guix build-system trivial)
-  #:use-module (gnu packages bash))
+      #:use-module (guix licenses)
+      #:use-module (guix gexp)
+      #:use-module (guix packages)
+      #:use-module (guix build-system gnu)
+      #:use-module (guix build-system trivial)
+      #:use-module (gnu packages bash))
+
 
 ; http://lists.gnu.org/archive/html/help-guix/2016-08/msg00101.html
 ; https://github.com/alezost/guix-config/blob/master/misc/shell-script-example/guix.scm
@@ -13,7 +14,7 @@
 (define-public bongotrott
   (package
     (name "bongotrott")
-    (version "0.2")
+    (version "0.4")
     (source (local-file (string-append (dirname (current-filename))
                                        "/" "myscript2")))
     (build-system trivial-build-system)
