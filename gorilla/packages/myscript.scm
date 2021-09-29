@@ -2,7 +2,7 @@
   #:use-module (guix gexp)
   #:use-module (guix packages)
   #:use-module (guix build-system gnu)
-  #:use-module (guix licenses)
+  #:use-module ((guix licenses) #:prefix license:)
   #:use-module (guix build-system trivial)
   #:use-module (gnu packages bash))
 
