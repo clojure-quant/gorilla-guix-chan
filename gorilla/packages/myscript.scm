@@ -14,7 +14,7 @@
 (define-public myscript
   (package
     (name "myscript")
-    (version "0.0.1")
+    (version "0.2")
     (source (local-file (string-append (dirname (current-filename))
                                        "/" "myscript2")))
     (build-system trivial-build-system)
@@ -32,11 +32,10 @@
            (patch-shebang bin-file (list bash-bin))
            (chmod bin-file #o555)))))
     (inputs `(("bash" ,bash)))
-    (home-page  "https://github.com/babashka/babashka")
     (synopsis "bla bla")
     (description "More verbose bla bla")
+    (home-page  "https://github.com/babashka/babashka")
     (license license:epl1.0)))
-
 
     myscript
 
