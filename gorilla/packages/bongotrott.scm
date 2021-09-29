@@ -6,8 +6,7 @@
   #:use-module (guix build-system trivial)
   #:use-module (gnu packages bash))
 
-;; See <http://lists.gnu.org/archive/html/help-guix/2016-08/msg00101.html>.
-
+; http://lists.gnu.org/archive/html/help-guix/2016-08/msg00101.html
 ; https://github.com/alezost/guix-config/blob/master/misc/shell-script-example/guix.scm
 
 
@@ -39,5 +38,3 @@
     (license gpl3+)))
 
     bongotrott
-
-
