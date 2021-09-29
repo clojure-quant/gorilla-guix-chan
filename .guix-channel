@@ -1,6 +1,6 @@
 (channel
   (version 0)
-  (url "https://github.com/pink-gorilla/guix-chan")
+  (url "https://github.com/pink-gorilla/gorilla-guix-chan")
   (directory "packages")
   (dependencies
    (channel
