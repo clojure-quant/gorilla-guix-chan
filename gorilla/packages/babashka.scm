@@ -1,4 +1,4 @@
-(define-module (babashka)
+(define-module (gorialla packages babashka)
 	       #:use-module ((guix licenses) #:prefix license:)
 	       #:use-module (guix packages)
 	       #:use-module (guix download)

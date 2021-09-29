@@ -1,4 +1,4 @@
-(define-module (gnu packages hello)
+(define-module (gorilla packages hello)
   #:use-module (guix packages)
   #:use-module (guix download)
   #:use-module (guix build-system gnu)
@@ -7,7 +7,7 @@
 
 (define-public hello22
   (package
-    (name "hello")
+    (name "hello22")
     (version "2.10")
     (source (origin
               (method url-fetch)
