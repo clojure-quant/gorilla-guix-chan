@@ -16,7 +16,7 @@
     (name "myscript")
     (version "0.1")
     (source (local-file (string-append (dirname (current-filename))
-                                       "/" "myscript")))
+                                       "/" "myscript2")))
     (build-system trivial-build-system)
     (arguments
      `(#:modules ((guix build utils))
@@ -24,7 +24,7 @@
        (begin
          (use-modules (guix build utils))
          (let* ((bin-dir  (string-append %output "/bin"))
-                (bin-file (string-append bin-dir "/" ,"myscript"))
+                (bin-file (string-append bin-dir "/" ,"myscript2"))
                 (bash-bin (string-append (assoc-ref %build-inputs "bash")
                                          "/bin")))
            (mkdir-p bin-dir)
