@@ -18,6 +18,7 @@
     (source (local-file (string-append (dirname (current-filename))
                                        "/" "myscript2")))
     (build-system trivial-build-system)
+    (supported-systems '("x86_64-linux" "i686-linux"))
     (arguments
      `(#:modules ((guix build utils))
        #:builder
@@ -35,8 +36,8 @@
     (synopsis "bla bla")
     (description "More verbose bla bla")
     (home-page  "https://github.com/babashka/babashka")
-    (license gpl3+)
-))
+    (license gpl3+)))
 
     myscript
+
 
