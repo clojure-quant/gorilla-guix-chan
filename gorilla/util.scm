@@ -4,14 +4,14 @@
   #:use-module (gnu packages)
   #:export (->manifests
             ->packages
-            ; ->packages-output
+             ->packages-output
             ))
 
 (define (->packages specs)
     (map specification->package specs))
 
-; (define (->packages-output specs)
-;    (map specification->package+output specs))
+ (define (->packages-output specs)
+    (map specification->package+output specs))
 
 
 
