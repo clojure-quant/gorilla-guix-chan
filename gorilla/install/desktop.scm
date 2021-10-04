@@ -64,5 +64,6 @@
 
     "docker"
     "vscodium"
-
+    "qemu"
+    
   ))

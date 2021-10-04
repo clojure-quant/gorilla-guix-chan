@@ -77,17 +77,7 @@ https://libreboot.org/docs/gnulinux/guix_system.html
 
 http://localhost:631/
 
-# os tweaking
 
-(define-module (zeus)
-  #:use-module (base-system)
-  #:use-module (gnu))
-
-(operating-system
- (inherit base-operating-system)
- (host-name "zeus")
-;;; Specific customisations for this system
-)
 
 # Non free kernel with installer 
 https://guix.gnu.org/manual/en/html_node/Building-the-Installation-Image.html#Building-the-Installation-Image
