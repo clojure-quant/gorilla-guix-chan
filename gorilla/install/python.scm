@@ -4,6 +4,7 @@
 
 ; possibly add this channel too ?
 ; https://github.com/UMCUGenetics/guix-additions/blob/master/umcu/packages/python.scm
+; https://unix.stackexchange.com/questions/621269/use-a-python-projects-requirements-txt-as-input-to-a-guix-package-definition?rq=1
 
 
 (define my-python
