@@ -1,4 +1,4 @@
-(define-module (gorilla service special-files)
+(define-module (gorilla services special-files)
    #:use-module (gnu)
    #:use-module (gnu packages bash) 
    #:export (service-special-files)
