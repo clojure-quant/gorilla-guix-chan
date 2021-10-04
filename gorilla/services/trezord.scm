@@ -1,4 +1,4 @@
-(define-module (gorilla services trezord-debug)
+(define-module (gorilla services trezord)
   #:use-module (gnu services)
   #:use-module (gnu services base)
   #:use-module (gnu services configuration)
