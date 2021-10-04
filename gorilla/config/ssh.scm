@@ -1,4 +1,4 @@
-(define-module (gorilla services ssh)
+(define-module (gorilla config ssh)
     #:use-module (guix) ; local-file
     #:use-module (gnu services)
     #:use-module (gnu services ssh)
