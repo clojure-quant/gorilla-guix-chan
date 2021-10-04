@@ -19,4 +19,10 @@
       
        "node" ; v10, v14 is in development. brings node and npm
        ; "java-certs" ; why?
+
+       ;"clojure-tools-cli"  ; guix version (OLD)
+       "clojure-tools" ; nongnu version
+       "leiningen" ; nongnu 
+        ; channel gorilla (prior: guiliani)
+       "babashka" 
    ))

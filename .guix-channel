@@ -1,9 +1,14 @@
 (channel
   (version 0)
   (url "https://github.com/pink-gorilla/gorilla-guix-chan")
-   (dependencies
-   (channel
-    (name nonguix)
-    (url "https://gitlab.com/nonguix/nonguix.git")))
+  (dependencies
+    (channel
+      (name nonguix)
+      (url "https://gitlab.com/nonguix/nonguix.git")) ; binary build system, clojure, dotnet, wine
+    (channel
+      (name 'guix-science)
+      (url "https://github.com/guix-science/guix-science.git")) ; rdesktop 
+    
+    )
     
     )

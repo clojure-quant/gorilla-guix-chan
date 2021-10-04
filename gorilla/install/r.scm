@@ -10,6 +10,11 @@
   (list  ;; for RMarkdown
     "r"
     "r-rserve" ; tcp server adaptor
+
+    ; channel guix-science
+    "rstudio" ; channel
+
+
    ;"r-knitr"
    ;"r-yaml"
    ;"r-markdown"
