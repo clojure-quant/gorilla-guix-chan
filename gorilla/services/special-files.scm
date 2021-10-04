@@ -1,4 +1,4 @@
-(define-module (gorilla config special-files))
+(define-module (gorilla service special-files))
 
 (use-modules
  (srfi srfi-1)
