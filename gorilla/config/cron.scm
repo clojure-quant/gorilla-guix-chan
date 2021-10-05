@@ -14,16 +14,16 @@
 ; #~ means ‘[begin a] gexp’, short for G-Expression
 
 (define system-garbage-job
-   ;; gc (remove packages older than 2 months, keep at least 500G free), pull and update every day at 03:05
-   #~(job "5 3 * * *"            ;Vixie cron syntax
+   ;; gc (remove packages older than 2 months, keep at least 500G free), pull and update every day at 01:05
+   #~(job "5 0 * * *"            ;Vixie cron syntax
           "guix gc --optimize -d 2m && guix gc -F 300G && guix pull")
     )
 
 (define user-garbage-job
-   ;; Collect garbage 5 minutes after midnight every day.
+   ;; Collect garbage 5 minutes after 2am every day.
    ;; The job's action is a shell command.
-   #~(job "40 18 * * *"            ;Vixie cron syntax
-       "guix gc -d 2d && guix pull"
+   #~(job "35 0 * * *"            ;Vixie cron syntax
+       "guix gc -d 5d && guix pull && guix package --upgrade"
        #:user "florian"
     ))
 
