@@ -32,6 +32,13 @@
  '(next-hour '(0 15 30 45))
  "echo `date` >> /tmp/d.txt"))
 
+; (define-public hello-job3
+;  #~(job '(next-minute '(1))
+;         (lambda ()
+;           (execl "echo"
+;                  "hello > /tmp/hello.txt"))))
+
+
 (define %guix-maintenance-jobs
 (list
    system-garbage-job
