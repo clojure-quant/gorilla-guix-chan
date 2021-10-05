@@ -27,10 +27,10 @@
        #:user "florian"
     ))
 
-(define-public hello-job
-(job
- '(next-hour '(0 15 30 45))
- "echo `date` >> /tmp/d.txt"))
+; (define-public hello-job
+; (job
+; '(next-hour '(0 15 30 45))
+;  "echo `date` >> /tmp/d.txt"))
 
 ; (define-public hello-job3
 ;  #~(job '(next-minute '(1))
@@ -43,6 +43,6 @@
 (list
    system-garbage-job
    user-garbage-job
-   hello-job
+   ; hello-job
     )
   )
