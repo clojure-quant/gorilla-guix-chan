@@ -40,3 +40,6 @@ for links errors.
 
 guix profile --list-generations
 guix system describe
+
+1m = 1 month
+ guix gc --delete-generations=1m
