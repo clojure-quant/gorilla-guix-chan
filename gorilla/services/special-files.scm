@@ -9,6 +9,7 @@
       `(("/bin/bash" ,(file-append bash "/bin/sh"))
         ("/bin/sh" ,(file-append bash "/bin/sh"))
         ("/bin/fish" ,(file-append fish "/bin/fish"))
+        ("/bin/zsh" ,(file-append zsh "/bin/zsh"))
         ("/usr/bin/env" ,(file-append coreutils "/bin/env")))))
      
      

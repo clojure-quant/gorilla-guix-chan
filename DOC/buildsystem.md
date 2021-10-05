@@ -44,6 +44,5 @@ https://maven.apache.org/configure.html
     specified with the #:node parameter which defaults to node.
 
 
-    https://github.com/leibniz-psychology/psychnotebook-deploy/blob/master/src/zpid/machines/yamunanagar/cron.scm
-
-    https://github.com/leibniz-psychology/psychnotebook-deploy/blob/master/src/zpid/machines/yamunanagar/ci.scm
+ 
+ https://github.com/leibniz-psychology/psychnotebook-deploy/blob/master/src/zpid/machines/yamunanagar/ci.scm
