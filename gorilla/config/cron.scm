@@ -22,7 +22,7 @@
 (define user-garbage-job
    ;; Collect garbage 5 minutes after midnight every day.
    ;; The job's action is a shell command.
-   #~(job "30 18 * * *"            ;Vixie cron syntax
+   #~(job "40 18 * * *"            ;Vixie cron syntax
        "guix gc -d 2d && guix pull"
        #:user "florian"
     ))
