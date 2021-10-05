@@ -106,3 +106,10 @@ qemu-system-x86_64 \
  -hda my_guix.img \
  -hdb guixsd-usb-install-0.9.0.x86_64-linux \
  -boot menu=on
+
+groups: libvirt libvirt-qemu 
+
+If you’re using Intel processor, then make sure your processor has support for hardware virtualization. If it does, then make sure VT-x or VT-d extension is enabled from the BIOS of your computer
+
+packages:  virt-manager
+
