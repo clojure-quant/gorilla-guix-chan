@@ -17,8 +17,7 @@
   (package
     (name "bongotrott")
     (version "0.4")
-    (source (local-file (string-append (dirname (current-filename))
-                                       "/" "myscript2")))
+    (source (local-file (string-append (search-path %load-path "gorilla/packages/myscript2")))) 
     (build-system trivial-build-system)
     (supported-systems '("x86_64-linux" "i686-linux"))
     (arguments
@@ -40,3 +39,4 @@
     (home-page  "https://github.com/babashka/babashka")
     (license gpl3+)))
 
+  
