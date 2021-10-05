@@ -114,3 +114,6 @@ guix system disk-image -t iso9660 /home/andreas/Documents/myguix/c2.scm
 sudo dd if=/gnu/store/6phpslb8z6zz6npii8qcnsrcvmwqz982-image.iso of=/dev/sdb status=progress
 sync
 
+tune2fs -O large_dir /dev/sdd3
+
+df -i

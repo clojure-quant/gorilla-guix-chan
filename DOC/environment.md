@@ -113,3 +113,5 @@ If you’re using Intel processor, then make sure your processor has support for
 
 packages:  virt-manager
 
+Indeed, it was disabled in the BIOS, after I enabled virtualisation,
+/dev/kvm appeared.

@@ -33,3 +33,10 @@ ls  ~/.guix-profile/bin                              installed binaries
 ~/.config/guix/current         profile, populated by guix pull
 /var/guix/profiles/system
 
+
+sudo dmesg
+for links errors.
+
+
+guix profile --list-generations
+guix system describe

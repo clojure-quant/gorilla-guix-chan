@@ -13,9 +13,29 @@
 
 ; #~ means ‘[begin a] gexp’, short for G-Expression
 
+(define system-garbage-job
+   ;; gc (remove packages older than 2 months, keep at least 500G free), pull and update every day at 03:05
+   #~(job "5 3 * * *"            ;Vixie cron syntax
+          "guix gc --optimize -d 2m && guix gc -F 300G && guix pull")
+    )
+
+(define user-garbage-job
+   ;; Collect garbage 5 minutes after midnight every day.
+   ;; The job's action is a shell command.
+   #~(job "30 18 * * *"            ;Vixie cron syntax
+       "guix gc -d 2d && guix pull"
+       #:user "florian"
+    ))
+
+(define-public hello-job
+(job
+ '(next-hour '(0 15 30 45))
+ "echo `date` >> /tmp/d.txt"))
+
 (define %guix-maintenance-jobs
 (list
-    ;; gc (remove packages older than 2 months, keep at least 500G free), pull and update every day at 03:05
-    #~(job "5 3 * * *"            ;Vixie cron syntax
-       "guix gc --optimize -d 2m && guix gc -F 300G && guix pull"))
+   system-garbage-job
+   user-garbage-job
+   hello-job
+    )
   )

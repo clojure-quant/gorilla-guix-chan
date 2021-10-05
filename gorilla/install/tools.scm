@@ -10,6 +10,8 @@
    "parted"
    "inxi"  ; hardware info 
    "cryptsetup" ; luks encryption
+   "cpuid" ; cpu info
+   "cpuinfo" ; cpu info
    "openssh"
    "tree"
    "whois"
