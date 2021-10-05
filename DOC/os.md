@@ -14,6 +14,10 @@ sudo herd restart mcron
 herd doc nscd
 sudo herd doc udev list-actions
 
+package: ntp.
+sudo ntpdate -u pool.ntp.org
+
+
 # WINDOW MANAGER
 
 KDE - not available.

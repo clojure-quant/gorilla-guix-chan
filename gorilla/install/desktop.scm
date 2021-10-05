@@ -65,5 +65,7 @@
     "docker"
     "vscodium"
     "qemu"
+    "go-ipfs"   ; bin: ipfs 
+    "ntp"
     
   ))
