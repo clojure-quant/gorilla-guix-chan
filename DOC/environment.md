@@ -115,3 +115,7 @@ packages:  virt-manager
 
 Indeed, it was disabled in the BIOS, after I enabled virtualisation,
 /dev/kvm appeared.
+
+ (service qemu-binfmt-service-type      
+  (qemu-binfmt-configuration        
+   (platforms (lookup-qemu-platforms "arm" "aarch64" "i686" "ppc"))))
