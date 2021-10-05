@@ -1,14 +1,14 @@
 (define-module (gorilla services special-files)
    #:use-module (gnu)
    #:use-module (gnu packages bash) 
-   #:use-module (gnu packages fish) 
+   #:use-module (gnu packages shells) ; fish + zsh
    #:export (service-bin-links))
 
 (define service-bin-links
    (service special-files-service-type
       `(("/bin/bash" ,(file-append bash "/bin/sh"))
         ("/bin/sh" ,(file-append bash "/bin/sh"))
-        ("/bin/fish" ,(file-append bash "/bin/fish"))
+        ("/bin/fish" ,(file-append fish "/bin/fish"))
         ("/usr/bin/env" ,(file-append coreutils "/bin/env")))))
      
      
