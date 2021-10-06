@@ -64,8 +64,11 @@
     "xdotool" ; determine windows class names (for i3 wm rules)
 
     "docker"
-    "vscodium"
+    "docker-compose"
+    "docker-cli" 
     "qemu"
+
+    "vscodium"
     "go-ipfs"   ; bin: ipfs 
     "ntp"
     
