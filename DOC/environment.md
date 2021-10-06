@@ -60,9 +60,6 @@ Orchestration:
 https://gitlab.com/pjotrp/guix-notes/-/blob/master/DEPLOY.org
 
 
-
-
-
 guix copy --to=Benutzer@Rechner \
           coreutils `readlink -f ~/.guix-profile`
 

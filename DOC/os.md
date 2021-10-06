@@ -4,19 +4,6 @@ GUIX SYSTEM ADMIN
 guix describe                             ; shows installed repositories
 guix system list-generations
 
-sudo herd status
-sudo herd detailed-status                 ; shows status of all services
-
-sudo herd schedule mcron                  ; show next 5 scheduled runtimes.
-sudo herd schedule mcron 10               ; next 10 scheduled runtimes
-sudo herd restart mcron
-
-herd doc nscd
-sudo herd doc udev list-actions
-
-package: ntp.
-sudo ntpdate -u pool.ntp.org
-
 
 # WINDOW MANAGER
 
@@ -26,6 +13,8 @@ xfce
 https://guix.gnu.org/en/blog/2019/running-a-guix-xfce-desktop-on-centos-7/
 
 sway
+the difference is that now GDM supports wayland session
+although you can run X apps in it using Xwayland
 https://gitlab.com/rolas978/guix-sway/-/blob/master/guix-sway-config.scm
 https://www.reddit.com/r/GUIX/comments/epckio/gnu_system_with_wayland_and_sway/?utm_medium=android_app&utm_source=share
 https://notabug.org/jbranso/cheatsheets/src/master/guix.org  sway notes
@@ -42,17 +31,6 @@ name: polybar
 EXWM 
 https://config.daviwil.com/desktop
 
-
-# udev
-
-sudo herd doc udev list-actions
-
-Führt udev aus, was zur Laufzeit Gerätedateien ins Verzeichnis /dev einfügt.
-herd rules udev
-ls /gnu/store/s1968693pp3zi1zs6l1lzcx6n37ih8kx-udev-rules/lib/udev/rules.d
-sudo cat /gnu/store/s1968693pp3zi1zs6l1lzcx6n37ih8kx-udev-rules/lib/udev/rules.d/70-power-switch.rules
-
-(simple-service 'custom-udev-rules udev-service-type (list sane-backends android-udev-rules)))
 
 
 # hardware architecture
