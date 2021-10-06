@@ -13,6 +13,7 @@ xfce
 https://guix.gnu.org/en/blog/2019/running-a-guix-xfce-desktop-on-centos-7/
 
 sway
+Wayland compositor compatible with i3
 the difference is that now GDM supports wayland session
 although you can run X apps in it using Xwayland
 https://gitlab.com/rolas978/guix-sway/-/blob/master/guix-sway-config.scm

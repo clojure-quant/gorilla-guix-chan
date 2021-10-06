@@ -29,6 +29,7 @@
 
     ; "palemoon" ;- A highly customizable browser
     "vlc"
+    ; "mpv"  ; audio/video player
     "subdl" ; subtitle download
     "kodi"
 
@@ -52,8 +53,8 @@
     "keepassxc"
     ; "transmission" ; torrent
     "transmission:gui" ; without :gui it does not work.n  The normal "out" output is the CLI versiononly.
-    "youtube-dl"
     "qbittorrent" ; torrent
+    "youtube-dl"
     "libwebp" ; webp video compression"
     "opus" ; audio codec
     "claws-mail"
