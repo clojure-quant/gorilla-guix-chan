@@ -14,6 +14,14 @@
        
         "make"
         "gcc-toolchain"
+
+        ; "llvm" "clang" "clang-runtime" "clang-toolchain"
+        ; "glibc" "gdb" "gcc-toolchain"
+        ; "gnu-make" "cmake" "pkg-config"
+        ; "patchelf" "binutils" "elfutils"
+
+
+
   ))
 
   

@@ -28,9 +28,3 @@ reads ~/.config/guix/channels.scm; with -C it can take channel specifications fr
 - https://gitlab.inria.fr/guix-hpc/guix-hpc
 - https://gitlab.com/mbakke/guix-chromium
 
-
-
-
-
-
-https://github.com/aartaka/guix-config/blob/master/dev-manifest.scm

@@ -77,6 +77,9 @@ https://othacehe.org/distributing-guix-system-pinebook-pro-images.html
 https://libreboot.org/docs/gnulinux/guix_system.html
 
 
+# auto mount usb disk:
+udisks probably
+
 
 # CUPS PRINTING
 
