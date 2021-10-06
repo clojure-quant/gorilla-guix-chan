@@ -116,3 +116,14 @@ Indeed, it was disabled in the BIOS, after I enabled virtualisation,
  (service qemu-binfmt-service-type      
   (qemu-binfmt-configuration        
    (platforms (lookup-qemu-platforms "arm" "aarch64" "i686" "ppc"))))
+
+
+# Export ISO image
+
+C2.scm  ->see myLinux/distros/guix
+
+guix system disk-image -t iso9660 /home/andreas/Documents/myguix/c2.scm
+/gnu/store/6phpslb8z6zz6npii8qcnsrcvmwqz982-image.iso
+
+sudo dd if=/gnu/store/6phpslb8z6zz6npii8qcnsrcvmwqz982-image.iso of=/dev/sdb status=progress
+sync

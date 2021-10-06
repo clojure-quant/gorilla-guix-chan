@@ -38,8 +38,18 @@ sudo dmesg
 for links errors.
 
 
-guix profile --list-generations
+# GUIX SYSTEM ADMIN
+
+* system
 guix system describe
+guix system list-generations               ; system profile
+
+* user
+guix describe                             ; shows installed repositories
+guix profile --list-generations            ; user profile
+
 
 1m = 1 month
- guix gc --delete-generations=1m
+guix gc --delete-generations=1m
+
+
