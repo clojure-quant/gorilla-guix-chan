@@ -1,5 +1,7 @@
 # Guile
 
+ https://guix.gnu.org/cookbook/en/guix-cookbook.html#Scheme-tutorials
+
  #f (or #false) and #t (or #true) are the booleans
 
 (+ (pk 2) 3) prints 2, and returns 5
