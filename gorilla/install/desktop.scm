@@ -12,7 +12,13 @@
     ; "neovim"
     "eovim" ;    NEOVIM GUI
     "xclock" ;x test
+
     "libreoffice"  ; libreoffice
+    ; pdf
+    "pdfarranger"
+    ; "xpdf"  ; does not show text of manually edited pdf files
+    "qpdfview"  ; this is much better
+
     "remmina"
     "kate" ;          text editor
     "glimpse"
@@ -37,7 +43,7 @@
     "mousepad" 
     "xfce4-notifyd"
 	  "xfce4-whiskermenu-plugin" "exo" "font-fira-mono" "mpv"
-	  "xpdf" "xcursor-themes"
+	  "xcursor-themes"
 	 "scm" "ncurses" 
 	 "font-google-noto" "font-openmoji" "hicolor-icon-theme"
 	 "adwaita-icon-theme" "ffmpeg" "sxiv" "elementary-xfce-icon-theme"
