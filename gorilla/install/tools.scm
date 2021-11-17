@@ -59,5 +59,6 @@
   ; "glibc-utf8-locales" ; small set of locales
    "mcron"
    "syncthing"
+   "certbot" ; letsencrypt certs
 
    ))
