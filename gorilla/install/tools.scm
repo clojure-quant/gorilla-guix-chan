@@ -62,5 +62,6 @@
    "certbot" ; letsencrypt certs
    "mesa-utils"
    "fasd" ; newer than autojump
+   "openssl"
 
    ))
