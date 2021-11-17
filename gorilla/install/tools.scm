@@ -60,5 +60,6 @@
    "mcron"
    "syncthing"
    "certbot" ; letsencrypt certs
+   "mesa-utils"
 
    ))
