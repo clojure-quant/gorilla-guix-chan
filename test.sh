@@ -9,7 +9,7 @@ echo "GUIX GUILE TEST LOAD-PAHT: " $GUILE_LOAD_PATH
 
 # load file, eval and exit
 echo "evaling guile.."
-guile -s /home/florian/repo/guix-chan/gorilla/test.scm
+guile -s /home/florian/repo/guix-chan/test.scm
 
 echo "evaling guix .."
 guix build -f ./gorilla/packages/babashka.scm
