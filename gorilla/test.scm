@@ -1,3 +1,5 @@
+(define-module (gorilla test))
+
 (use-modules 
   (ice-9 pretty-print)  
   (gnu)  
