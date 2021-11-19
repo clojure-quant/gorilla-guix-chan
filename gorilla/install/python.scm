@@ -1,6 +1,5 @@
 (define-module (gorilla install python)
-  #:export (my-python
-            ))
+  #:export (my-python))
 
 ; possibly add this channel too ?
 ; https://github.com/UMCUGenetics/guix-additions/blob/master/umcu/packages/python.scm

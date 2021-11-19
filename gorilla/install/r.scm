@@ -1,6 +1,5 @@
 (define-module (gorilla install r)
-  #:export (my-r
-            ))
+  #:export (my-r))
 
 ; possibly add this channel too ?
 ; https://github.com/UMCUGenetics/guix-additions/blob/master/umcu/packages/rstudio.scm

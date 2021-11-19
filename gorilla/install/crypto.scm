@@ -1,6 +1,5 @@
 (define-module (gorilla install crypto)
-  #:export (my-crypto
-            ))
+  #:export (my-crypto))
 
 (define my-crypto
   (list 

@@ -1,6 +1,5 @@
 (define-module (gorilla install tools)
-  #:export (my-tools
-            ))
+  #:export (my-tools))
 
 (define my-tools
   (list 

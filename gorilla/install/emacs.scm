@@ -1,6 +1,5 @@
 (define-module (gorilla install emacs)
-  #:export (my-emacs
-            ))
+  #:export (my-emacs))
 
 (define my-emacs
   (list 

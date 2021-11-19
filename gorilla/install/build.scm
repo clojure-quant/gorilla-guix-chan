@@ -1,6 +1,5 @@
 (define-module (gorilla install build)
-  #:export (my-build
-            ))
+  #:export (my-build))
 
 (define my-build
   (list 
