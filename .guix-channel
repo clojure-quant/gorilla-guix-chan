@@ -5,10 +5,6 @@
     (channel
       (name nonguix)
       (url "https://gitlab.com/nonguix/nonguix.git")) ; binary build system, clojure, dotnet, wine
-    (channel
-      (name science)
-      (url "https://github.com/guix-science/guix-science.git")) ; rdesktop 
-    
-    )
-    
-    )
+
+
+    ))

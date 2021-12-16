@@ -18,7 +18,8 @@
   #:use-module (gnu packages gl)
   #:use-module (gnu packages linux)
   #:use-module (gnu packages cups)
-  #:use-module (gnu packages gcc))
+  #:use-module (gnu packages gcc)
+)
 
 (define* (make-vscodium-release-asset version asset hash)
   (origin

@@ -26,7 +26,7 @@
 
 ; #:use-module (gorilla services special-files)
 
-(print "gorilla test loaded!")
+(display "gorilla test loaded!")
 
 
 
