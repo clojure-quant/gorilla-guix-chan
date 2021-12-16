@@ -21,6 +21,8 @@
   #:use-module (gnu packages gcc)
 )
 
+; https://channels.pantherx.org/pantherx-extra.git/tree/px/packages/programming.scm
+
 (define* (make-vscodium-release-asset version asset hash)
   (origin
     (method url-fetch)
