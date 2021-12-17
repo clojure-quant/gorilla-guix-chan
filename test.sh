@@ -13,7 +13,7 @@ guile -s /home/florian/repo/guix-chan/gorilla/test.scm
 
 echo "evaling guix .."
 guix build -f ./gorilla/packages/babashka.scm
-guix build -f ./gorilla/packages/vscode.scm
+# guix build -f ./gorilla/packages/vscode.scm
 
 
 # guix repl
