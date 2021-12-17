@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export GUILE_LOAD_PATH=.:$GUILE_LOAD_PATH
+export GUILE_LOAD_PATH=./guix:$GUILE_LOAD_PATH
 
 echo "GUIX GUILE TEST LOAD-PAHT: " $GUILE_LOAD_PATH
 
@@ -9,10 +9,10 @@ echo "GUIX GUILE TEST LOAD-PAHT: " $GUILE_LOAD_PATH
 
 # load file, eval and exit
 echo "evaling guile.."
-guile -s ./gorilla/test.scm
+guile -s ./guix/gorilla/test.scm
 
 echo "evaling guix .."
-guix build -f ./gorilla/packages/babashka.scm
+guix build -f ./guix/gorilla/packages/babashka.scm
 # guix build -f ./gorilla/packages/vscode.scm
 
 

@@ -1,11 +1,10 @@
 (channel
   (version 0)
   (url "https://github.com/pink-gorilla/gorilla-guix-chan")
+  (directory "guix")
   (dependencies
     (channel
       (name nonguix)
-      (directory "gorilla")
-      (url "https://gitlab.com/nonguix/nonguix.git")) ; binary build system, clojure, dotnet, wine
-
+      (url "https://gitlab.com/nonguix/nonguix.git")) ; binary build system
 
     ))
