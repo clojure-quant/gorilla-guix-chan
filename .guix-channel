@@ -4,6 +4,7 @@
   (dependencies
     (channel
       (name nonguix)
+      (directory "guix")
       (url "https://gitlab.com/nonguix/nonguix.git")) ; binary build system, clojure, dotnet, wine
 
 
