@@ -48,7 +48,10 @@
     (arguments
      `(#:patchelf-plan
        `(("opt/vscodium/codium"
-          ("glib" "atk" "libx11" "dbus" "gdk-pixbuf" "gtk+" "pango" "fontconfig"
+          ("glib" "atk" "libx11" "dbus"
+           ; "gdk-pixbuf" 
+          "librsvg"
+          "gtk+" "pango" "fontconfig"
            "cairo" "libxcomposite" "libxdamage" "libxext" "libxfixes"
            "libxkbfile" "libxrandr" "expat" "libdrm" "libxkbcommon" "mesa" "alsa-lib"
            "cups" "at-spi2-core" "libxcb" "at-spi2-atk" "nspr" "gcc" "zlib" "gcc:lib"
@@ -128,7 +131,8 @@
        ("atk" ,atk)
        ("libx11" ,libx11)
        ("dbus" ,dbus)
-       ("gdk-pixbuf" ,gdk-pixbuf+svg)
+       ;("gdk-pixbuf" ,gdk-pixbuf+svg)
+       ("librsvg" ,librsvg)
        ("gtk+" ,gtk+)
        ("pango" ,pango)
        ("cairo" ,cairo)
@@ -182,7 +186,10 @@
     (arguments
      `(#:patchelf-plan
        `(("opt/vscode/code"
-          ("glib" "atk" "libx11" "dbus" "gdk-pixbuf" "gtk+" "pango" "fontconfig"
+          ("glib" "atk" "libx11" "dbus" 
+         ;  "gdk-pixbuf"
+           "librsvg"
+           "gtk+" "pango" "fontconfig"
            "cairo" "libxcomposite" "libxdamage" "libxext" "libxfixes" "libxshmfence"
            "libxkbfile" "libxrandr" "expat" "libdrm" "libxkbcommon" "mesa" "alsa-lib"
            "cups" "at-spi2-core" "libxcb" "at-spi2-atk" "nspr" "gcc" "zlib" "gcc:lib"
@@ -261,7 +268,8 @@
        ("atk" ,atk)
        ("libx11" ,libx11)
        ("dbus" ,dbus)
-       ("gdk-pixbuf" ,gdk-pixbuf+svg)
+       ;("gdk-pixbuf" ,gdk-pixbuf+svg)
+       ("librsvg" ,librsvg)
        ("gtk+" ,gtk+)
        ("pango" ,pango)
        ("cairo" ,cairo)
