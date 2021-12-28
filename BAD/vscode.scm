@@ -42,7 +42,7 @@
 (define-public vscodium-1.55.2
   (package
     (name "vscodium")
-    (version "1.55.2")
+    (version "1.63.2") ; "1.55.2"
     (source #f)
     (build-system binary-build-system)
     (arguments
