@@ -36,10 +36,12 @@
     (sha256
      (base32 hash))))
 
-(define-public vscodium-1.55.2
+; https://github.com/VSCodium/vscodium/issues?q=wayland+
+
+(define-public vscodium-1.63.2
   (package
     (name "vscodium")
-    (version "1.55.2")
+    (version "1.63.2")
     (source #f)
     (build-system binary-build-system)
     (arguments
@@ -153,7 +155,7 @@
     (description "VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VSCode.")
     (license license:expat)))
 
-(define-public vscodium vscodium-1.55.2)
+(define-public vscodium vscodium-1.63.2)
 
 
 (define* (make-vscode-release-asset version asset hash)

@@ -1,6 +1,6 @@
 (channel
   (version 0)
-  (url "https://github.com/pink-gorilla/gorilla-guix-chan")
+  (url "https://github.com/clojure-quant/gorilla-guix-chan")
   (directory "guix")
   (dependencies
     (channel
