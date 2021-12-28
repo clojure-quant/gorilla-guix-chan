@@ -36,12 +36,10 @@
     (sha256
      (base32 hash))))
 
-; https://github.com/VSCodium/vscodium/issues?q=wayland+
-
-(define-public vscodium-1.63.2
+(define-public vscodium-1.55.2
   (package
     (name "vscodium")
-    (version "1.63.2")
+    (version "1.55.2")
     (source #f)
     (build-system binary-build-system)
     (arguments
@@ -118,7 +116,7 @@
      `(("vscodium"
         ,(make-vscodium-release-asset
           version "VSCodium"
-          "0pczrbifjgm905371i8c6bk90ka291cmny6hr1nzfix7bn5psjx0"))
+          "12mdila9gspj6b9s6488j0ba264vm4a46546kplma7s6gkkpz4zx"))
        ("gcc:lib" ,gcc "lib")
        ("gcc" ,gcc "lib")
        ("glib" ,glib)
@@ -155,7 +153,7 @@
     (description "VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VSCode.")
     (license license:expat)))
 
-(define-public vscodium vscodium-1.63.2)
+(define-public vscodium vscodium-1.55.2)
 
 
 (define* (make-vscode-release-asset version asset hash)
